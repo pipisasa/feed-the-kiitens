@@ -1,0 +1,50 @@
+h6{
+    margin: 0;
+    font-size: 17px;
+}
+.ui-draggable{
+    cursor: pointer;
+}
+.params h6{
+    transition: .3s;
+}
+#meatBody{
+    right:10px;
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 0 1px black;
+}
+#giveMeat{
+    transition: .2s;
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 0 1px black;
+    cursor: pointer;
+}
+#giveMeat:hover{
+    background-color: black;
+    color: #FFF;
+}
+#meatBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    bottom: -80px;
+    box-shadow: 0 0 0 1px black;
+}
